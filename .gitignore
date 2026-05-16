@@ -1,0 +1,9 @@
+saved_transformer/
+saved_bilstm
+transformer_results/
+logs/
+wandb/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.zip

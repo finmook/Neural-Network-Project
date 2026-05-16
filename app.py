@@ -100,7 +100,7 @@ def show_result(model_name,pred_label,probs):
         "Probability":probs
     })
 
-    st.bar_chart(prob_df,x="Label",y="Probability")
+    st.bar_chart(prob_df,x="Label",y="Probability",color="#bd93f9")
 
 def clear_comment():
     st.session_state["comment_area"]=""
